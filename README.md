@@ -83,3 +83,9 @@ The designs were created to the following widths:
 - Weights: 700
 
 ### Published By @HurairTaqvi
+- Blogger: [Blogger](https://hurairtaqvi.blogspot.com/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hurairtaqvi/)
+- Twitter: [Twitter](https://twitter.com/HurairTaqvi)
+- Facebook: [Facebook](https://www.facebook.com/hurairtaqvi)
+- Instagram: [Instagram](https://www.instagram.com/hurairtaqvi/)
+- YouTube: [YouTube](https://www.youtube.com/@hurairtaqvi)
