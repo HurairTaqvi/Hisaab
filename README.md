@@ -4,7 +4,7 @@ Hisaab Lagao | Calculator | Hurair Taqvi
 ![cal](https://github.com/HurairTaqvi/Hisaab/assets/94100531/f5d86e7d-40c0-4272-835c-e0e6fc5d5385)
 
 ### Published By Hurair Taqvi
-# Front-end Style Guide
+# Front-End Style Guide for Designers & Developers
 
 ## Layout
 The designs were created to the following widths:
