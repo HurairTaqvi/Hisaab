@@ -16,7 +16,7 @@ chooseTheme.addEventListener("change", function() {
 
     let color1 = '#252D44';
     switch (val) {
-        case 0:
+        case 2:
             body.style.transition = ".5s";
             body.style.background = "#3B4664";
             main.style.color = "white";
@@ -105,50 +105,49 @@ chooseTheme.addEventListener("change", function() {
             root.style.setProperty('--thumb-bg-hover', '#FA8E3F');
             break;
 
-        case 2:
-            body.style.background = "#17062A";
-            body.style.transition = ".5s";
-            main.style.color = "#FFE64C";
-            main.style.transition = ".5s";
-            chooseTheme.style.background = "#1E0836";
-            buttonsGrid.style.background = "#1E0836";
-            articleScreen.style.background = "#1E0836";
-            resolve.style.background = "#08DBD3";
-            resolve.style.color = "black";
-            resolve.style.boxShadow = "0 3px 0 #6DF7EF";
-            /* Many buttons */
-            for (let i = 0; i < resetAndDel.length; i++) {
-                resetAndDel[i].addEventListener("mouseover", function() {
-                    this.style.background = "#8730B2";
+        case 0:
+                body.style.transition = ".5s";
+                body.style.background = "#5195CE";
+                main.style.color = "#33332A";
+                chooseTheme.style.background = "#D3CDCE";
+                articleScreen.style.background = "#EEEEEE";
+                buttonsGrid.style.background = "#D3CDCD";
+                resolve.style.background = "#C85401";
+                resolve.style.boxShadow = "0 3px 0 #93261A";
+                resolve.style.color = "white";
+                /* Many buttons */
+                for (let i = 0; i < resetAndDel.length; i++) {
+                    resetAndDel[i].addEventListener("mouseover", function() {
+                        this.style.background = "#62B5BD";
+                    });
+                    resetAndDel[i].addEventListener("mouseout", function() {
+                        this.style.background = "#388187";
+                    });
+                    resetAndDel[i].style.background = "#388187";
+                    resetAndDel[i].style.boxShadow = "0 3px 0 #1a6166";
+                }
+                resolve.addEventListener("mouseover", function() {
+                    this.style.background = "#F96C5B";
                 });
-                resetAndDel[i].addEventListener("mouseout", function() {
-                    this.style.background = "#57077C";
+                resolve.addEventListener("mouseout", function() {
+                    this.style.background = "#C85401";
                 });
-                resetAndDel[i].style.background = "#57077C";
-                resetAndDel[i].style.boxShadow = "0 3px 0 #B61BE8";
-            }
-            resolve.addEventListener("mouseover", function() {
-                this.style.background = "#94FFF9";
-            });
-            resolve.addEventListener("mouseout", function() {
-                this.style.background = "#08DBD3";
-            });
-            for (let i = 0; i < buttons.length; i++) {
-                buttons[i].addEventListener("mouseover", function() {
-                    this.style.background = "#6B34AC";
-                });
-                buttons[i].addEventListener("mouseout", function() {
-                    this.style.background = "#331B4D";
-                });
-                buttons[i].style.background = "#331B4D";
-                buttons[i].style.transition = '.3s';
-                buttons[i].style.color = "#FFE64C";
-                buttons[i].style.boxShadow = "0 3px 0 #56077C";
-            }
-            /* root */
-            root.style.setProperty('--thumb-bg', '#00DAD3');
-            root.style.setProperty('--thumb-bg-hover', '#93FBF4');
-            break;
+                for (let i = 0; i < buttons.length; i++) {
+                    buttons[i].addEventListener("mouseover", function() {
+                        this.style.background = "";
+                    });
+                    buttons[i].addEventListener("mouseout", function() {
+                        this.style.background = "";
+                    });
+                    buttons[i].style.color = "#474E5C";
+                    buttons[i].style.background = "#EAE3DB";
+                    buttons[i].style.transition = '.3s';
+                    buttons[i].style.boxShadow = "0 3px 0 #B3A39D";
+                }
+                /* root */
+                root.style.setProperty('--thumb-bg', '#CA580A');
+                root.style.setProperty('--thumb-bg-hover', '#FA8E3F');
+                break;         
     }
 });
 
